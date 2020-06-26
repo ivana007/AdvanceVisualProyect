@@ -8433,11 +8433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivana\\source\\repos\\AdvanceVisual\\AdvanceVisual\\AdvanceVisual.csproj",
+      "projectUniqueName": "C:\\Users\\Ivana\\source\\repos\\AdvanceVisualProyect\\AdvanceVisual\\AdvanceVisual.csproj",
       "projectName": "AdvanceVisual",
-      "projectPath": "C:\\Users\\Ivana\\source\\repos\\AdvanceVisual\\AdvanceVisual\\AdvanceVisual.csproj",
+      "projectPath": "C:\\Users\\Ivana\\source\\repos\\AdvanceVisualProyect\\AdvanceVisual\\AdvanceVisual.csproj",
       "packagesPath": "C:\\Users\\Ivana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivana\\source\\repos\\AdvanceVisual\\AdvanceVisual\\obj\\",
+      "outputPath": "C:\\Users\\Ivana\\source\\repos\\AdvanceVisualProyect\\AdvanceVisual\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ivana\\AppData\\Roaming\\NuGet\\NuGet.Config",
