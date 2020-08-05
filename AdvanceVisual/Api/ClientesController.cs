@@ -90,9 +90,9 @@ namespace AdvanceVisual.Api
         [AllowAnonymous]
         public async Task<IActionResult> Login(LoginView loginView)
         {
+           
             try
             {
-
                 string hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
                     password: loginView.Clave,
                     salt: System.Text.Encoding.ASCII.GetBytes(config["Salt"]),

@@ -29,12 +29,24 @@ namespace AdvanceVisual.Api
           
             return Ok(contexto.Clases);
         }
+        
+        // POST: api/Clases
+        [HttpPost]
+        public async Task<IActionResult> BuscarClase([FromBody] string value)
+        {
+            var usuario = contexto.Clientes.FirstOrDefault(x => x.Email == User.Identity.Name);
+            var clase = contexto.Clases.FirstOrDefault(x => x.Nombre == value);
+            return Ok(clase);
+        }
+
 
         // GET: api/Clases/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return "value";
+            var usuario = contexto.Clientes.FirstOrDefault(x => x.Email == User.Identity.Name);
+            var clase = contexto.Clases.FirstOrDefault(x => x.ClaseId == id);
+            return Ok(clase);
         }
 
         // POST: api/Clases

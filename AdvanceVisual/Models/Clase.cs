@@ -10,6 +10,7 @@ namespace AdvanceVisual.Models
     {
         [Key]
         public int ClaseId { get; set; }
+        public String Nombre { get; set; }
         public decimal Precio { get; set; }
         public int CantidadClases { get; set; }
         public int Cupo { get; set; }

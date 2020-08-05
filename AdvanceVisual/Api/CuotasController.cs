@@ -34,7 +34,7 @@ namespace AdvanceVisual.Api
             {
                 var usuario = User.Identity.Name;
 
-                return Ok(contexto.Cuotas.Include(x => x.Clase).Include(x => x.Cliente).Where(x => x.Cliente.Email == usuario).Select(x=>x.Clase));
+                return Ok(contexto.Cuotas.Include(x => x.Clase).Include(x => x.Cliente).Where(x => x.Cliente.Email == usuario).Select(x=>x.Clase));//lista las clases que pago de un cliente
             }
             catch (Exception ex)
             {

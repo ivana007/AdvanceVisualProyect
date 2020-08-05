@@ -14,7 +14,7 @@ namespace AdvanceVisual.Models
         public DateTime Hora { get; set; }
         public int ClienteId { get; set; }
         public int ClaseId { get; set; }
-        //public Cliente Cliente { get; set; }
-        //public Clase Clase { get; set; }
+        public Cliente Cliente { get; set; }
+        public Clase Clase { get; set; }
     }
 }
